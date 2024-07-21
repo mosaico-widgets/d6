@@ -1,10 +1,10 @@
 {
-  "name": "New Project",
-  "description": "A new Mosaico project",
+  "name": "d6",
+  "description": "",
   "widget_version": "1.0",
   "software_version": "1.0",
-  "author": "Mosaico Team",
-  "fps": 1,
-  "configurable": true
+  "author": "murkrow",
+  "fps": 8,
+  "configurable": false
 }
         

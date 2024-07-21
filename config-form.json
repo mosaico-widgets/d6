@@ -1,27 +1,9 @@
 {
   "form": {
-    "title": "Shopping List",
+    "title": "",
     "description": "Configure your widget here",
     "fields": [
       {
-        "name": {
-          "type": "string",
-          "label": "Name",
-          "required": true,
-          "placeholder": "Enter the name of this list"
-        },
-         "color": {
-          "type": "color",
-          "label": "Color",
-          "required": true,
-          "placeholder": "Choose the color of the title"
-        },
-        "items": {
-          "type": "string[]",
-          "label": "Shopping items",
-          "required": true,
-          "placeholder": "Insert your items here"
-        }
       }
     ]
   }
