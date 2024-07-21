@@ -47,12 +47,22 @@ def draw_dice_face_2():
 
 def draw_dice_face_3():
     """Draws the dice face with three dots."""
-    draw_dice_face_1()
-    global dot2
+    global dot1, dot2, dot3
+    dot1 = widget.createRectangle()
+    dot1.setSize(10, 10)
+    dot1.setColor(colors.black)
+    dot1.moveTo(15, 15)
+
     dot2 = widget.createRectangle()
     dot2.setSize(10, 10)
     dot2.setColor(colors.black)
-    dot2.moveTo(39, 39)
+    dot2.moveTo(27, 27)
+
+    dot3 = widget.createRectangle()
+    dot3.setSize(10, 10)
+    dot3.setColor(colors.black)
+    dot3.moveTo(39, 39)
+    
 
 def draw_dice_face_4():
     """Draws the dice face with four dots."""
@@ -149,7 +159,8 @@ def draw_dice_face(number):
     elif number == 6:
         draw_dice_face_6()
 
-def loop():  
+def loop():
+    #return  
     global current_shuffle
     if current_shuffle < shuffle_count:
         number = get_new_number()
